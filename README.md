@@ -2,8 +2,6 @@
 
 A minimal starter project to practice with [Github REST API](https://developer.github.com/v3/). 
 
-![start project](docs/cover.png)
-
 ## Running the app
 
 1. Install project dependencies
