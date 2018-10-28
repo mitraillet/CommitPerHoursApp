@@ -92,7 +92,7 @@ function handleSearch(username, repo) {
       updateChart({ labels, data, backgroundColor });
     })
     .catch(err => {
-      updatePlaceholder('Oups, an error occured. Sorry, this app sucks...', 'text-error');
+      updatePlaceholder('No result found...', 'text-error');
       console.error('Cannot fetch data', err)
     });
 }
